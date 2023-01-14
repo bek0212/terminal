@@ -4,10 +4,10 @@ window.onload = function () {
         theme: "light2",
         animationEnabled: true,
         title: {
-            text: "Shares of Electricity Generation by Fuel"
+            text: "BY M.bekzodbek"
         },
         subtitles: [{
-            text: "United Kingdom, 2016",
+            text: "Ozbekistan Kingdom, 2023",
             fontSize: 16
         }],
         data: [{
@@ -18,11 +18,11 @@ window.onload = function () {
             yValueFormatString: "###0.0\"%\"",
             click: explodePie,
             dataPoints: [
-                { y: 42, label: "Gas" },
+                { y: 42, label: "HTML" },
                 { y: 21, label: "Nuclear"},
-                { y: 24.5, label: "Renewable" },
-                { y: 9, label: "Coal" },
-                { y: 3.1, label: "Other Fuels" }
+                { y: 24.5, label: "CSS" },
+                { y: 9, label: "VYU" },
+                { y: 3.1, label: "React" }
             ]
         }]
     });
